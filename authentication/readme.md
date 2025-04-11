@@ -23,3 +23,21 @@ xhr.setRequestHeader("Authorization", "Bearer [[site_token]]");
 
 xhr.send();
 ```
+
+
+### User Authentication
+
+If you are doing customer authentication, you will need to obtain a account_secret and keep that secure sever side for your API requests. You can add your account secret key in a server side request like this.
+
+```javascript
+
+'headers': {
+  'Authorization': 'Bearer [[site_token]]:[[account_secret]]'
+},
+
+```
+
+
+### Site Tokens
+
+A site token is generated in your admin interface. You can have as many site tokens as you like for your account. For example. You will for sure want to have a site token for the domain of your website. But you will probably want to create a site token for your localhost, dev or staging environments. This will help ensure that only authorized domains are accessing your catalog.
