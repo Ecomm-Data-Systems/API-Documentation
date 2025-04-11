@@ -140,7 +140,9 @@ Response example
 
 ## Variants
 
-If a product has variants, it will have a product_type of ADVANCED and the product object will contain an array of variants of that product.
+If a product has variants, it will have a product_type of ```ADVANCED``` and the product object will contain an array of variants of that product.
+
+> :bulb: Tip: Your product detail page should detect if the product is advanced and has variants. And then present the user with the variant options.
 
 Response example
 ```json
