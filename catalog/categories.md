@@ -7,7 +7,7 @@ Resource
 /api/v1/product_categories
 ```
 
-Response
+Response example
 ```json
 
 {
@@ -24,3 +24,28 @@ Response
 }
 
 ```
+
+<br><br>
+
+## Show Category
+
+Retrieve a single category object based on category_apikey.
+
+Resource
+```bash
+/api/v1/product_categories/:category_apikey
+```
+
+Response example
+```json
+
+{
+    "category": {
+        "name": "Garden & Shoes",
+        "description": "Est qui porro. Dolores quidem impedit. Eveniet earum maxime.",
+        "apikey": "y42ZUktRiq_u36Dv1W8Xjg"
+    }
+}
+
+```
+
