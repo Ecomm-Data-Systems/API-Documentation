@@ -6,7 +6,7 @@ EDS is a headless ecommerce platform designed with easy integration in mind.
 
 - [Authentication](./authentication)
 - Site Tokens
-- Catalog
+- [Catalog](./catalog)
 - Orders
 - Customers
 
