@@ -42,34 +42,31 @@ Resource (brand option)
 
 Response example
 ```json
-
 {
     "products": [
         {
-            "apikey": "arloLrV7p6uAKi6Mi3NDwg",
+            "apikey": "QcAeS71JwoEpDm_3MKO5OA",
             "product_type": "SIMPLE",
-            "name": "Air Fresheners",
-            "description": "fdsfsd",
-            "summary": "fdsf",
-            "features": " sdf",
-            "specs": "fds",
-            "price": "189.99",
-            "discount": null,
+            "name": "Durable Concrete Gloves",
+            "description": "Enim quia deleniti. Sint sunt quia. Et cupiditate voluptatibus.",
+            "summary": "Accusamus id exercitationem. Voluptatem dolor dignissimos. Rem saepe accusantium.",
+            "features": "Maiores et sit. Distinctio esse quaerat. Sapiente et quasi.",
+            "specs": "Temporibus laborum ducimus. Vel consequatur placeat. Quia doloremque et.",
+            "price": "40.3",
+            "discount": "70.39",
+            "stripe_product_id": null,
+            "stripe_price_id": 123456789abcdefg,
+            "stripe_taxcode_id": null,
             "status": "PUBLISHED",
-            "images": [
-                {
-                    "image": "https://..."
-                }
-            ],
             "categories": [
                 {
                     "name": "Sports",
-                    "apikey": "3sa70PTQUvaxUHCy-v1UMg"
+                    "apikey": "mmhlWDTIUpeTW06saTnoVg"
                 }
             ],
             "brand": {
-                "name": "LG",
-                "apikey": "dNcABlkneukVelxzAXJhKA"
+                "name": "Apple",
+                "apikey": "HFH8dvpJuHpz6uxDKg6bag"
             }
         },...
     ],
@@ -97,41 +94,38 @@ Resource
 
 Response example
 ```json
-
 {
     "product": {
-        "name": "Air Fresheners",
+        "name": "Durable Concrete Gloves",
         "product_type": "SIMPLE",
-        "description": "fdsfsd",
-        "summary": "fdsf",
-        "features": " sdf",
-        "specs": "fds",
-        "inventory": 0,
+        "description": "Enim quia deleniti. Sint sunt quia. Et cupiditate voluptatibus.",
+        "summary": "Accusamus id exercitationem. Voluptatem dolor dignissimos. Rem saepe accusantium.",
+        "features": "Maiores et sit. Distinctio esse quaerat. Sapiente et quasi.",
+        "specs": "Temporibus laborum ducimus. Vel consequatur placeat. Quia doloremque et.",
+        "inventory": 27,
         "slug": null,
-        "keywords": null,
-        "sku": "",
-        "price": "189.99",
-        "discount": null,
+        "keywords": "sales funnel",
+        "sku": "474521489024",
+        "price": "40.3",
+        "discount": "70.39",
+        "stripe_product_id": null,
+        "stripe_price_id": 123456789abcdefg,
+        "stripe_taxcode_id": null,
         "weight": null,
-        "length": "",
-        "height": "",
+        "length": null,
+        "height": null,
         "status": "PUBLISHED",
-        "apikey": "arloLrV7p6uAKi6Mi3NDwg"
+        "apikey": "QcAeS71JwoEpDm_3MKO5OA"
     },
-    "images": [
-        {
-            "image": "https://..."
-        }
-    ],
     "categories": [
         {
             "name": "Sports",
-            "apikey": "3sa70PTQUvaxUHCy-v1UMg"
+            "apikey": "mmhlWDTIUpeTW06saTnoVg"
         }
     ],
     "brand": {
-        "name": "Fabreze",
-        "apikey": "arloLrV7p6uAKi6Mi3NDwg"
+        "name": "Durable Concrete Gloves",
+        "apikey": "QcAeS71JwoEpDm_3MKO5OA"
     }
 }
 ```
