@@ -55,7 +55,7 @@ Response example
             "price": "40.3",
             "discount": "70.39",
             "stripe_product_id": null,
-            "stripe_price_id": 123456789abcdefg,
+            "stripe_price_id": "123456789abcdefg",
             "stripe_taxcode_id": null,
             "status": "PUBLISHED",
             "categories": [
@@ -109,7 +109,7 @@ Response example
         "price": "40.3",
         "discount": "70.39",
         "stripe_product_id": null,
-        "stripe_price_id": 123456789abcdefg,
+        "stripe_price_id": "123456789abcdefg",
         "stripe_taxcode_id": null,
         "weight": null,
         "length": null,
