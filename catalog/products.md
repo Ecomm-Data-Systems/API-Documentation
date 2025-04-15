@@ -138,6 +138,8 @@ If a product has variants, it will have a product_type of ```ADVANCED``` and the
 
 > :bulb: Tip: Your product detail page should detect if the product is advanced and has variants. And then present the user with the variant options.
 
+Note that ```ADVANCED``` products do not have pricing. The pricing is with the variant.
+
 Response example
 ```json
 
@@ -153,13 +155,12 @@ Response example
         "slug": null,
         "keywords": null,
         "sku": null,
-        "price": null,
-        "discount": null,
+        "stripe_taxcode_id": "",
         "weight": null,
         "length": null,
         "height": null,
         "status": "PUBLISHED",
-        "apikey": "dI3q06LSWBw23J0yoJqjMw"
+        "apikey": "R5QdOnotarealkeyOpkQ"
     },
     "images": [
         {
@@ -169,35 +170,37 @@ Response example
     "categories": [
         {
             "name": "Kids & Clothing",
-            "apikey": "hs0h836a26X-pv-0K_dsNQ"
+            "apikey": "R5QdOnotarealkeyOpkQ"
         }
     ],
     "brand": {
         "name": "Tshirt",
-        "apikey": "dI3q06LSWBw23J0yoJqjMw"
+        "apikey": "R5QdOnotarealkeyOpkQ"
     },
     "variants": [
         {
             "name": "Large Blue T-Shirt",
-            "price": null,
+            "stripe_price_id": "price_123notarealid789",
+            "price": "14.67",
             "discount": null,
             "inventory": null,
             "sku": "",
             "weight": null,
             "length": "",
             "height": "",
-            "apikey": "6pji7ht5GgxqL4db1k_DBg"
-        },
+            "apikey": "R5QdOnotarealkeyOpkQ"
+        }
         {
             "name": "Medium Blue T-Shirt",
-            "price": null,
+            "stripe_price_id": "price_123notarealid789",
+            "price": "14.67",
             "discount": null,
             "inventory": null,
             "sku": "",
             "weight": null,
             "length": "",
             "height": "",
-            "apikey": "WxAoqm-BxV1P1s_YF6EvYQ"
+            "apikey": "R5QdOnotarealkeyOpkQ"
         }
     ]
 }
