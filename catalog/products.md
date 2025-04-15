@@ -85,6 +85,8 @@ Response example
 
 ## Show Product
 
+If a product has a ```product_type``` of ```SIMPLE```. It will contain all of the pricing, inventory, sku and dimension data in the product object. If the product is ```ADVANCED``` you will want to [look at variants](#variants).
+
 Retrieve a single product object based on product_apikey.
 
 Resource
