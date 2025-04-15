@@ -5,7 +5,7 @@
 - [List Products](#list-products)
 - [Show Product](#show-product)
     - [Simple](#simple-products)
-    - [Advanced](#advances-products)
+    - [Advanced](#advanced-products)
 
 
 ## List Products
@@ -87,6 +87,8 @@ Response example
 ## Show Product
 
 Retrieve a single product with the APIKEY.
+
+<br>
 
 ### Simple Products
 
