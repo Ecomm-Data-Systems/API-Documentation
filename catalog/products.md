@@ -88,16 +88,16 @@ Response example
 
 Retrieve a single product with the APIKEY.
 
+Resource
+```bash
+/api/v1/products/:product_apikey
+```
+
 <br>
 
 ### Simple Products
 
 If a product has a ```product_type``` of ```SIMPLE```. It will contain all of the pricing, inventory, sku and dimension data in the product object. If the product is ```ADVANCED``` you will want to [look at variants](#variants).
-
-Resource
-```bash
-/api/v1/products/:product_apikey
-```
 
 Response example
 ```json
