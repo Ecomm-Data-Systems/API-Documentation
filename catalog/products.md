@@ -45,10 +45,10 @@ Response example
 {
     "products": [
         {
-            "apikey": "QcAeS71JwoEpDm_3MKO5OA",
+            "apikey": "123imnotarealapikey789",
             "product_type": "SIMPLE",
             "name": "Durable Concrete Gloves",
-            "description": "Enim quia deleniti. Sint sunt quia. Et cupiditate voluptatibus.",
+            "description": "<p>Enim quia deleniti. Sint sunt quia. Et cupiditate voluptatibus.</p>",
             "summary": "Accusamus id exercitationem. Voluptatem dolor dignissimos. Rem saepe accusantium.",
             "features": "Maiores et sit. Distinctio esse quaerat. Sapiente et quasi.",
             "specs": "Temporibus laborum ducimus. Vel consequatur placeat. Quia doloremque et.",
@@ -61,12 +61,12 @@ Response example
             "categories": [
                 {
                     "name": "Sports",
-                    "apikey": "mmhlWDTIUpeTW06saTnoVg"
+                    "apikey": "123imnotarealapikey789"
                 }
             ],
             "brand": {
                 "name": "Apple",
-                "apikey": "HFH8dvpJuHpz6uxDKg6bag"
+                "apikey": "123imnotarealapikey789"
             }
         },...
     ],
@@ -87,8 +87,6 @@ Response example
 
 If a product has a ```product_type``` of ```SIMPLE```. It will contain all of the pricing, inventory, sku and dimension data in the product object. If the product is ```ADVANCED``` you will want to [look at variants](#variants).
 
-Retrieve a single product object based on product_apikey.
-
 Resource
 ```bash
 /api/v1/products/:product_apikey
@@ -100,7 +98,7 @@ Response example
     "product": {
         "name": "Durable Concrete Gloves",
         "product_type": "SIMPLE",
-        "description": "Enim quia deleniti. Sint sunt quia. Et cupiditate voluptatibus.",
+        "description": "<p>Enim quia deleniti. Sint sunt quia. Et cupiditate voluptatibus.</p>",
         "summary": "Accusamus id exercitationem. Voluptatem dolor dignissimos. Rem saepe accusantium.",
         "features": "Maiores et sit. Distinctio esse quaerat. Sapiente et quasi.",
         "specs": "Temporibus laborum ducimus. Vel consequatur placeat. Quia doloremque et.",
@@ -116,17 +114,17 @@ Response example
         "length": null,
         "height": null,
         "status": "PUBLISHED",
-        "apikey": "QcAeS71JwoEpDm_3MKO5OA"
+        "apikey": "123imnotarealapikey789"
     },
     "categories": [
         {
             "name": "Sports",
-            "apikey": "mmhlWDTIUpeTW06saTnoVg"
+            "apikey": "123imnotarealapikey789"
         }
     ],
     "brand": {
         "name": "Durable Concrete Gloves",
-        "apikey": "QcAeS71JwoEpDm_3MKO5OA"
+        "apikey": "123imnotarealapikey789"
     }
 }
 ```
@@ -148,10 +146,10 @@ Response example
     "product": {
         "name": "Tshirt",
         "product_type": "ADVANCED",
-        "description": "The comfiest tshirt ever.",
+        "description": "<p>The comfiest tshirt ever.</p>",
         "summary": "",
         "features": " ",
-        "specs": "",
+        "specs": "123IMASKU789",
         "keywords": null,
         "sku": null,
         "stripe_taxcode_id": "",
@@ -179,7 +177,7 @@ Response example
             "stripe_price_id": "price_123notarealid789",
             "price": "14.67",
             "discount": null,
-            "inventory": null,
+            "inventory": 3,
             "sku": "123IMASKU789",
             "weight": null,
             "length": "",
@@ -191,7 +189,7 @@ Response example
             "stripe_price_id": "price_123notarealid789",
             "price": "14.67",
             "discount": null,
-            "inventory": null,
+            "inventory": 13,
             "sku": "123IMASKU789",
             "weight": null,
             "length": "",
