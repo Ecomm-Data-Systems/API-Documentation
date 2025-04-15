@@ -4,7 +4,8 @@
 
 - [List Products](#list-products)
 - [Show Product](#show-product)
-- [Variants](#variants)
+    - [Simple](#simple-products)
+    - [Advanced](#advances-products)
 
 
 ## List Products
@@ -85,6 +86,10 @@ Response example
 
 ## Show Product
 
+Retrieve a single product with the APIKEY.
+
+### Simple Products
+
 If a product has a ```product_type``` of ```SIMPLE```. It will contain all of the pricing, inventory, sku and dimension data in the product object. If the product is ```ADVANCED``` you will want to [look at variants](#variants).
 
 Resource
@@ -131,7 +136,7 @@ Response example
 
 <br><br>
 
-## Variants
+### Advanced products
 
 If a product has variants, it will have a product_type of ```ADVANCED``` and the product object will contain an array of variants of that product.
 
