@@ -138,7 +138,7 @@ If a product has variants, it will have a product_type of ```ADVANCED``` and the
 
 > :bulb: Tip: Your product detail page should detect if the product is advanced and has variants. And then present the user with the variant options.
 
-Note that ```ADVANCED``` products do not have pricing. The pricing is with the variant.
+Note that ```ADVANCED``` products do not have pricing, inventory, sku or dimensions. Those attributes are with the variant.
 
 Response example
 ```json
@@ -151,14 +151,10 @@ Response example
         "summary": "",
         "features": " ",
         "specs": "",
-        "inventory": null,
         "slug": null,
         "keywords": null,
         "sku": null,
         "stripe_taxcode_id": "",
-        "weight": null,
-        "length": null,
-        "height": null,
         "status": "PUBLISHED",
         "apikey": "R5QdOnotarealkeyOpkQ"
     },
@@ -184,7 +180,7 @@ Response example
             "price": "14.67",
             "discount": null,
             "inventory": null,
-            "sku": "",
+            "sku": "123IMASKU789",
             "weight": null,
             "length": "",
             "height": "",
@@ -196,7 +192,7 @@ Response example
             "price": "14.67",
             "discount": null,
             "inventory": null,
-            "sku": "",
+            "sku": "123IMASKU789",
             "weight": null,
             "length": "",
             "height": "",
