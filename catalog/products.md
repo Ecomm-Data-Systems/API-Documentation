@@ -58,7 +58,7 @@ Response example
             "price": "39.3",
             "discount": "27.83",
             "stripe_price_id": "123456789abcdefg",
-            "stripe_taxcode_id": null,
+            "stripe_taxcode_id": txcd_99999999,
             "status": "PUBLISHED",
             "categories": [
                 {
@@ -116,7 +116,7 @@ Response example
         "price": "39.3",
         "discount": "27.83",
         "stripe_price_id": "123456789abcdefg",
-        "stripe_taxcode_id": 1001,
+        "stripe_taxcode_id": txcd_99999999,
         "weight": null,
         "length": null,
         "height": null,
@@ -162,8 +162,7 @@ Response example
         "features": " ",
         "specs": "123IMASKU789",
         "keywords": null,
-        "sku": null,
-        "stripe_taxcode_id": "",
+        "stripe_taxcode_id": "txcd_99999999",
         "status": "PUBLISHED",
         "apikey": "R5QdOnotarealkeyOpkQ"
     },
@@ -197,7 +196,6 @@ Response example
             "ship_rate_type": null,
             "est_delivery_min": 5,
             "est_delivery_max": 7,
-            "stripe_taxcode_id": null,
             "apikey": "R5QdOnotarealkeyOpkQ"
         },
         {
@@ -212,9 +210,8 @@ Response example
             "height": "",
             "flat_ship_rate": 500,
             "ship_rate_type": null,
-            "est_delivery_min": null,
-            "est_delivery_max": 5,
-            "stripe_taxcode_id": 7,
+            "est_delivery_min": 5,
+            "est_delivery_max": 7,
             "apikey": "R5QdOnotarealkeyOpkQ"
         }
     ]
