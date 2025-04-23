@@ -94,6 +94,8 @@ GET:
 /api/v1/products/:product_apikey
 ```
 
+Your website will need to accomodate 2 different types of products from the API. ```SIMPLE``` and ```ADVANCED``` products have slightly different data structures. Your Product Detail Page (PDP) should check for what type of product it is and show the correct information.
+
 <br>
 
 ### Simple Products
