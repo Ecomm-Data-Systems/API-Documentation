@@ -1,4 +1,4 @@
-# Products
+# Catalog::Products
 
 This document covers how you can pull a list of products with filters and a single product that is simple, or advanced with variants.
 

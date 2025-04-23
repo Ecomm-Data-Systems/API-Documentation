@@ -1,4 +1,4 @@
-# Categories
+# Catalog::Categories
 
 ## List Categories
 

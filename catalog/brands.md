@@ -1,4 +1,4 @@
-# Brands
+# Catalog::Brands
 
 ## List Brands
 
