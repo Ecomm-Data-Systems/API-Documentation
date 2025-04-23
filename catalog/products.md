@@ -122,6 +122,10 @@ Response example
         "weight": null,
         "length": null,
         "height": null,
+        "flat_ship_rate": null,
+        "ship_rate_type": null,
+        "est_delivery_min": null,
+        "est_delivery_max": null,
         "status": "PUBLISHED",
         "apikey": "123imnotarealapikey789"
     },
@@ -191,8 +195,13 @@ Response example
             "weight": null,
             "length": "",
             "height": "",
+            "flat_ship_rate": null,
+            "ship_rate_type": null,
+            "est_delivery_min": null,
+            "est_delivery_max": null,
+            "stripe_taxcode_id": null,
             "apikey": "R5QdOnotarealkeyOpkQ"
-        }
+        },
         {
             "name": "Medium Blue T-Shirt",
             "stripe_price_id": "price_123notarealid789",
@@ -203,6 +212,11 @@ Response example
             "weight": null,
             "length": "",
             "height": "",
+            "flat_ship_rate": null,
+            "ship_rate_type": null,
+            "est_delivery_min": null,
+            "est_delivery_max": null,
+            "stripe_taxcode_id": null,
             "apikey": "R5QdOnotarealkeyOpkQ"
         }
     ]
