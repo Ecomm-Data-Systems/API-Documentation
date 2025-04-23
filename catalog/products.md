@@ -58,7 +58,7 @@ Response example
             "price": "39.3",
             "discount": "27.83",
             "stripe_price_id": "123456789abcdefg",
-            "stripe_taxcode_id": txcd_99999999,
+            "stripe_taxcode_id": "txcd_99999999",
             "status": "PUBLISHED",
             "categories": [
                 {
@@ -116,7 +116,7 @@ Response example
         "price": "39.3",
         "discount": "27.83",
         "stripe_price_id": "123456789abcdefg",
-        "stripe_taxcode_id": txcd_99999999,
+        "stripe_taxcode_id": "txcd_99999999",
         "weight": null,
         "length": null,
         "height": null,
