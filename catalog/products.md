@@ -98,7 +98,7 @@ GET:
 
 ### Simple Products
 
-If a product has a ```product_type``` of ```SIMPLE```. It will contain all of the pricing, inventory, sku and dimension data in the product object. If the product is ```ADVANCED``` you will want to [look at advanced products](#advanced_products).
+If a product has a ```product_type``` of ```SIMPLE```. It will contain all of the pricing, inventory, sku and dimension data in the product object. If the product is ```ADVANCED``` you will want to [look at advanced products](#advanced-products).
 
 Response example
 ```json
