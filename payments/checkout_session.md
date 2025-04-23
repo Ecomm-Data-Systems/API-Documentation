@@ -6,7 +6,10 @@ To show the Stripe payment widget on your site, you will need to obtain a valid 
 
 ## Getting a checkout session
 
-POST: ```/api/v1/checkout_session```
+POST: 
+```bash
+/api/v1/checkout_session
+```
 
 Body Example: 
 ```{
