@@ -23,22 +23,22 @@ Optional parameters
 - c: Filters products for category
 - b: Filters products for brand 
 
-Resource (first page)
-GET: ```bash
+GET: (first page)
+```bash
 /api/v1/products
 ```
 
-Resource (with pagination)
+GET: (with pagination)
 ```bash
 /api/v1/products?page=:n
 ```
 
-Resource (category option)
+GET: (category option)
 ```bash
 /api/v1/products?c=:category_apikey
 ```
 
-Resource (brand option)
+GET: (brand option)
 ```bash
 /api/v1/products?b=:brand_apikey
 ```
