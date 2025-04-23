@@ -11,7 +11,7 @@ Post: ```{{subdomain}}.ecommdatasystems.com/api/v1/checkout_session```
 Body Example: 
 ```{
     "line_items": [
-        {"stripe_price_obj": "{{stripe_price_obj}}", "quantity": 2, "flat_ship_rate": 500, "est_delivery_min": 3, "est_delivery_max": 8}
+        {"stripe_price_id": "{{stripe_price_id}}", "quantity": 2, "flat_ship_rate": 500, "est_delivery_min": 3, "est_delivery_max": 8}
     ],
     "return_url": "{{address you need user to return to after payment}}"
 }
