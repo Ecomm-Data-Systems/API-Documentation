@@ -24,7 +24,7 @@ Optional parameters
 - b: Filters products for brand 
 
 Resource (first page)
-```bash
+GET: ```bash
 /api/v1/products
 ```
 

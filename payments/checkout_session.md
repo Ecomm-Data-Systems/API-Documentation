@@ -6,7 +6,7 @@ To show the Stripe payment widget on your site, you will need to obtain a valid 
 
 ## Getting a checkout session
 
-Post: ```{{subdomain}}.ecommdatasystems.com/api/v1/checkout_session```
+POST: ```/api/v1/checkout_session```
 
 Body Example: 
 ```{
