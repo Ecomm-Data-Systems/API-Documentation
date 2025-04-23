@@ -90,7 +90,7 @@ Response example
 
 Retrieve a single product with the ```product_apikey```.
 
-Resource
+GET:
 ```bash
 /api/v1/products/:product_apikey
 ```

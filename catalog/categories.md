@@ -2,7 +2,7 @@
 
 ## List Categories
 
-Resource
+GET:
 ```bash
 /api/v1/product_categories
 ```
@@ -31,7 +31,7 @@ Response example
 
 Retrieve a single category object based on category_apikey.
 
-Resource
+GET:
 ```bash
 /api/v1/product_categories/:category_apikey
 ```

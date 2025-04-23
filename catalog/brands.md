@@ -6,7 +6,7 @@ Retrieve a list of active brands from your account.
 
 The list will be ordered in alphabetical order. Brands that are tagged as pending in the admin interface will not appear in this resource.
 
-Resource
+GET:
 ```bash
 /api/v1/product_brands
 ```
@@ -33,7 +33,7 @@ Response example
 
 Retrieve a single brand object based on brand_apikey.
 
-Resource
+GET:
 ```bash
 /api/v1/product_brands/:brand_apikey
 ```
