@@ -12,21 +12,25 @@ Optional parameters
 - c: Filters products for category
 - b: Filters products for brand 
 
+### All products
 GET: (first page)
 ```bash
 /api/v1/products
 ```
 
+### Product pagination
 GET: (with pagination)
 ```bash
 /api/v1/products?page=:n
 ```
 
+### Filter by category
 GET: (category option)
 ```bash
 /api/v1/products?c=:category_apikey
 ```
 
+### Filter by brand
 GET: (brand option)
 ```bash
 /api/v1/products?b=:brand_apikey
