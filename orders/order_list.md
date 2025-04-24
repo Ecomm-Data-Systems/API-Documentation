@@ -4,11 +4,14 @@ Filter your request by order status or, you can search for an order number or ev
 
 ## Find Orders
 
+
+### All orders
 GET:
 ```bash
 /api/v1/orders
 ```
 
+### Filter by status
 To add a status filter you can add this query string.
 
 GET:
@@ -16,12 +19,14 @@ GET:
 /api/v1/orders?status=OPEN
 ```
 
+### Search orders
 Or to seach for an order using the order number or even a partial order number.
 
 GET:
 ```bash
 /api/v1/orders?search=8675309
 ```
+
 Example response:
 ```bash
 {
