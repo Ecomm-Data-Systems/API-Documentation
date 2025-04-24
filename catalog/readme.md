@@ -4,7 +4,7 @@ The catalog API provides read-only endpoints to pull your stores content into yo
 
 - [Brands](./brands.md)
 - [Categories](./categories.md)
-- [Products](./products.md)
+- [Products](./products)
 
 ### Your ecommerce site should be able to...
 
