@@ -3,7 +3,7 @@
 The catalog API provides read-only endpoints to pull your stores content into your app or website. 
 
 - [Brands](./brands.md)
-- [Categories](./categories.md)
+- [Categories](./categories)
 - [Products](./products)
 
 ### Your ecommerce site should be able to...
