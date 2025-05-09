@@ -1,6 +1,6 @@
 # Catalog::Categories::Category List
 
-Retrieve a list of product categories
+Retrieve a list of product categories.
 
 GET:
 ```bash
@@ -13,14 +13,24 @@ Response example
 {
     "categories": [
         {
-            "name": "Computers & Games",
-            "apikey": "j0gcEpRddG859StfDWD1yQ"
-        },
-        {
-            "name": "Garden & Shoes",
-            "apikey": "y42ZUktRiq_u36Dv1W8Xjg"
+          "name": "Tools",
+          "full_path": "Automotive+%26+Movies/Tools",
+          "apikey": "z2SMPIWPJpAjqwXCG35ZVg",
+          "children": [
+              {
+                  "name": "Drills",
+                  "full_path": "Automotive+%26+Movies/Tools/Drills",
+                  "apikey": "hSR6xvekRnmsNszhqD10qA"
+              },
+              {
+                  "name": "Screwdrivers",
+                  "full_path": "Automotive+%26+Movies/Tools/Screwdrivers",
+                  "apikey": "-JIt3zPfBAep17o5wIgGSA"
+              }...
+            ]
         },...
     ]
 }
 
 ```
+

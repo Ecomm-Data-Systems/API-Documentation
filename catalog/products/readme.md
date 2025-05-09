@@ -6,3 +6,7 @@ This document covers how you can pull a list of products with filters and a sing
 
 - [List Products](./product_list.md)
 - [Product Detail](./product_detail.md)
+
+### Product Categories
+
+A product can belong to just one or many categories.
