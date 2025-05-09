@@ -15,17 +15,17 @@ Response example
         {
           "name": "Tools",
           "full_path": "Automotive+%26+Movies/Tools",
-          "apikey": "z2SMPIWPJpAjqwXCG35ZVg",
+          "apikey": "z2SMNOtaRealAPIKeyPIVg",
           "children": [
               {
                   "name": "Drills",
                   "full_path": "Automotive+%26+Movies/Tools/Drills",
-                  "apikey": "hSR6xvekRnmsNszhqD10qA"
+                  "apikey": "hSNotArealAPiKeyqA"
               },
               {
                   "name": "Screwdrivers",
                   "full_path": "Automotive+%26+Movies/Tools/Screwdrivers",
-                  "apikey": "-JIt3zPfBAep17o5wIgGSA"
+                  "apikey": "-JItNoTAreaLAPIKeYGSA"
               }...
             ]
         },...
