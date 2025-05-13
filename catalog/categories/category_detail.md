@@ -6,7 +6,7 @@ There are multiple ways to retrieve a category object.
 
 ## Find By Path
 
-Retrieves detailed information about a single category based on the slug(s), including its ID, name, slug, and full hierarchical path. If the category has nested subcategories (children), they will be included recursively in the response.
+Retrieves detailed information about a single category based on the slug(s), including its name, description, apikey, and full hierarchical path. If the category has nested subcategories (children), they will be included recursively in the response.
 
 The ```full_path``` field represents the complete path from the root category to the current category (e.g., "men/clothing/t-shirts").
 
