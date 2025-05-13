@@ -14,17 +14,17 @@ Response example
     "categories": [
         {
           "name": "Tools",
-          "full_path": "/Tools",
+          "full_path": "/tools",
           "apikey": "z2SMNOtaRealAPIKeyPIVg",
           "children": [
               {
                   "name": "Drills",
-                  "full_path": "/Tools/Drills",
+                  "full_path": "/tools/drills",
                   "apikey": "hSNotArealAPiKeyqA"
               },
               {
                   "name": "Screwdrivers",
-                  "full_path": "/Tools/Screwdrivers",
+                  "full_path": "/tools/screwdrivers",
                   "apikey": "-JItNoTAreaLAPIKeYGSA"
               }...
             ]
