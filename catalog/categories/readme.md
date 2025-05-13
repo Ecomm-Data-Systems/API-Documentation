@@ -5,3 +5,6 @@ Categories in this API are organized as a hierarchical tree. A store can define 
 Each category includes a ```full_path``` field, which represents its complete path in the hierarchy, making it easy to construct navigation menus or filter products accordingly.
 
 :bulb: For easy navigation, your website should follow the same hierarchy structure from the API. But, because this is a headless solution you are are free to build your navigation structure as you like it. 
+
+- [Category List](./category_list.md)
+- [Category Detail](./category_detail.md)
